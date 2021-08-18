@@ -1,17 +1,9 @@
 # FoundryVTT - Forien's Unidentified Items
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/forien/foundryvtt-forien-unidentified-items?style=for-the-badge) 
-![GitHub Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-unidentified-items/latest/total?style=for-the-badge) 
-![GitHub All Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-unidentified-items/total?style=for-the-badge&label=Downloads+total)  
-**[Compatibility]**: *FoundryVTT* 0.6.0+  
-**[Systems]**: *any*  
-**[Languages]**: *English, Korean, Polish, Portuguese (Brazil), Japanese (Thanks Touge!)*
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mclemente/foundryvtt-forien-unidentified-items?style=for-the-badge) 
+![GitHub Releases](https://img.shields.io/github/downloads/mclemente/foundryvtt-forien-unidentified-items/latest/total?style=for-the-badge) 
+![GitHub All Releases](https://img.shields.io/github/downloads/mclemente/foundryvtt-forien-unidentified-items/total?style=for-the-badge&label=Downloads+total)  
 
 This module aims to provides system agnostic solution to handle unidentified items and their identification for games via Foundry Virtual Tabletop.
-
-## Installation
-
-1. Install Forien's Unidentified Items using manifest URL: https://raw.githubusercontent.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items/master/module.json
-2. While loaded in World, enable **_Forien's Unidentified Items_** module.
 
 ## Usage
 
@@ -29,12 +21,6 @@ Data used during identification is decided upon at the time of mystification.
 <img src="https://i.gyazo.com/1c440fd3a3d4867d3c96fcd3bd2cb585.png" alt="Mystify As - Transmogrify" width=400/><img src="https://i.gyazo.com/ee294dbe6fb2eeefe25c51ac9825b58f.png" alt="Advanced mystification" width=400/><br/><img src="https://i.gyazo.com/f862aa34e373c4c7f1e47adfb27e5bf6.png" alt="Mystified Acid Vial" width=400/><img src="https://i.gyazo.com/9a8e32db257136af9fa728c57e05201b.png" alt="Context Menu" width=200/><img src="https://i.gyazo.com/c8d75fc3c6f205655f3eb14e59f661bb.png" alt="Context Menu" width=200/>
 
 ## System Integration
-
-|            	| dnd5e 	| pf2e 	| wfrp4e 	| swade 	|
-|------------	|-------	|------	|--------	|--------	|
-| Settings   	| ✓     	| ✓    	| ✓      	| ✓      	|
-| Logic      	| ✗     	| ✗    	| ✗      	| ✗      	|
-
 One of main principles of this module is being [**System Agnostic**](https://github.com/Forien/foundryvtt-forien-unidentified-items/wiki#1-completely-system-agnostic). There is however, way of integrating systems.
 
 Basic settings initialization (like setting default persisting properties for dnd5e) I will allow to be built-in this module. These can, however, be defined from the System's side.
@@ -47,24 +33,9 @@ According to this module's Primary Principle, there will never be any system-spe
 
 If you are **System** or **Module** developer, please read the [Developers Wiki](https://github.com/Forien/foundryvtt-forien-unidentified-items/wiki/Developers) for API and Hooks references.
 
-Also, do not hesitate to contact me with questions and for assistance. 
-
-## Future plans
-
-* _none currently_
-
-You can **always** check current and up-to-date [planned and requested features here](https://github.com/Forien/foundryvtt-forien-unidentified-items/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
-
-*If you have **any** suggestion or idea on new contents, hit me up on Discord!*
-
 ## Translations
 
 If you are interested in translating my module, simply make a new Pull Request with your changes, or contact me on Discord.
-
-## Contact
-
-If you wish to contact me for any reason, reach me out on Discord using my tag: `Forien#2130`
-
 
 ## Acknowledgments
 
@@ -74,10 +45,6 @@ If you wish to contact me for any reason, reach me out on Discord using my tag: 
 * Thanks to rinnocenti for providing Portuguese (Brazil) translation
 * Thanks to freyrrabbit for help with defining default properties for PF2e system
 * Thanks to SalieriC for help with defining default properties for Swade system
-
-## Support
-
-If you wish to support module development, please consider [becoming Patron](https://www.patreon.com/foundryworkshop) or donating [through Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6P2RRX7HVEMV2&source=url). Thanks!
 
 ## License
 

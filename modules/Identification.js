@@ -13,9 +13,7 @@ export default class Identification {
    */
   static async mystify(itemUuid, options = {replace: false, mystifiedData: undefined}) {
     if (!game.user.isGM) return;
-    let item;
-
-    item = await this._itemFromUuid(itemUuid);
+    let item = await this._itemFromUuid(itemUuid);
 
     if (!item) {
       ui.notifications.error("ForienUnidentifiedItems.NotAnItem", {});
@@ -407,7 +405,8 @@ export default class Identification {
 
         return actor.items.get(embeddedId);
       }
-    } else {
+    }
+    else {
       return fromUuid(uuid);
     }
 
@@ -425,7 +424,7 @@ export default class Identification {
     const pack = game.packs.get(packId);
     if (pack.metadata.entity !== "Item")
       return null;
-    return await pack.getEntity(itemId).then(ent => {
+    return await pack.getDocument(itemId).then(ent => {
       delete ent._id;
       return ent;
     });

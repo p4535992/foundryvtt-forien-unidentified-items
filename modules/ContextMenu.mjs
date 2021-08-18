@@ -86,7 +86,7 @@ export default function registerContextMenuHook() {
         const item = game.items.get(id);
         const origData = item.getFlag(constants.moduleName, "origData");
         origData.isAbstract = true;
-        const entity = new CONFIG.Item.entityClass(origData, {editable: false});
+        const entity = new CONFIG.Item.documentClass(origData, {editable: false});
         const sheet = entity.sheet;
         sheet.render(true);
       }

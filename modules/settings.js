@@ -98,7 +98,7 @@ function initializeDefaultIcons() {
   settings = mergeObject(settings, icons);
   di.saveSettings(settings);
   console.log(`${constants.moduleLabel} | Initialized default item icons.`);
-  ui.notifications.info(game.i18n.localize("ForienUnidentifiedItems.Notifications.defaultIconsInitialized"), {permanent: true});
+  // ui.notifications.info(game.i18n.localize("ForienUnidentifiedItems.Notifications.defaultIconsInitialized"), {permanent: true});
 }
 
 /**
@@ -128,7 +128,7 @@ function initializeItemProperties() {
   settings = mergeObject(settings, properties);
   ip.saveSettings(settings);
   console.log(`${constants.moduleLabel} | Initialized default item properties.`);
-  ui.notifications.info(game.i18n.localize("ForienUnidentifiedItems.Notifications.defaultPropertiesInitialized"), {permanent: true});
+  // ui.notifications.info(game.i18n.localize("ForienUnidentifiedItems.Notifications.defaultPropertiesInitialized"), {permanent: true});
 }
 
 
