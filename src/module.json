@@ -2,7 +2,7 @@
   "id": "forien-unidentified-items",
   "title": "Forien's Unidentified Items",
   "description": "Provides system agnostic solution to handle unidentified items and their identification.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "authors": [
     {
       "name": "Forien",
@@ -95,10 +95,10 @@
   },
   "manifestPlusVersion": "1.2.1",
   "url": "https://github.com/Forien/foundryvtt-forien-unidentified-items",
-  "manifest": "https://github.com/Forien/foundryvtt-forien-unidentified-items/releases/download/v1.1.0/module.json",
-  "download": "https://github.com/Forien/foundryvtt-forien-unidentified-items/releases/download/v1.1.0/module.zip",
-  "readme": "https://github.com/Forien/foundryvtt-forien-unidentified-items/blob/v1.1.0/README.md",
-  "changelog": "https://github.com/Forien/foundryvtt-forien-unidentified-items/blob/v1.1.0/CHANGELOG.md",
+  "manifest": "https://github.com/Forien/foundryvtt-forien-unidentified-items/releases/download/1.1.1/module.json",
+  "download": "https://github.com/Forien/foundryvtt-forien-unidentified-items/releases/download/1.1.1/module.zip",
+  "readme": "https://github.com/Forien/foundryvtt-forien-unidentified-items/blob/master/README.md",
+  "changelog": "https://github.com/Forien/foundryvtt-forien-unidentified-items/blob/master/CHANGELOG.md",
   "bugs": "https://github.com/Forien/foundryvtt-forien-unidentified-items/issues",
   "allowBugReporter": true,
   "relationships": {
