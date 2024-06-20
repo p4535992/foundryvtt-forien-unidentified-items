@@ -1,6 +1,6 @@
 # FoundryVTT - Forien's Unidentified Items
 
-
+# THIS MODULE IS ABBANDONED No support is planned, Dnd5e and Pf2e use their own identified item behaviour, for any other system is advisable to use https://github.com/trioderegion/archon
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Forien/foundryvtt-forien-unidentified-items?style=for-the-badge)
 
